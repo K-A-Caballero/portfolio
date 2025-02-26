@@ -1,4 +1,4 @@
-import GithubIcon from '../../public/github-mark.svg'
+import GithubIcon from "../../public/github-mark.svg"
 
 const GithubButton = () => {
   return (

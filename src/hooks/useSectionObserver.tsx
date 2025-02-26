@@ -2,7 +2,7 @@
 
 import { useEffect } from "react";
 
-const SectionObserver = () => {
+const UseSectionObserver = () => {
   useEffect(() => {
     const sections = document.querySelectorAll("section[id");
     const observer = new IntersectionObserver(
@@ -29,4 +29,4 @@ const SectionObserver = () => {
   }, []);
 }
 
-export default SectionObserver;
+export default UseSectionObserver;
