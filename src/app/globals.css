@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+html.light {
+  --backgroundPrimary: #DBEDF3;
+  --backgroundSecondary: #404B69;
+  --textPrimary: #283149;
+  --textSecondary: #DBEDF3;
+  --accentPrimary: #00818A;
+  --accentSecondary: #00a4af;
+  --github: #24292f;
+}
+
+html.dark {
+  --backgroundPrimary: #283149;
+  --backgroundSecondary: #404B69;
+  --textPrimary: #DBEDF3;
+  --textSecondary: #DBEDF3;
+  --accentPrimary: #00818A;
+  --accentSecondary: #00a4af;
+  --github: #fff;
+}
+
+body {
+  color: var(--textPrimary);
+  background: var(--backgroundPrimary);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.tab {
+  display: inline-flex;
+  align-items: center;
+  white-space: nowrap;
+  padding-inline: 1rem;
+  padding-block: 0.75rem;
+  width: 100%;
+  border-radius: 0.5rem;
+}
+
+.activeTab {
+  background-color: var(--accentPrimary);
+}
+
+.inactiveTab {
+  background-color: var(--backgroundSecondary);
+}
+
+.inactiveTab:hover {
+  background-color: var(--accentSecondary);
+}
+
+.uLine {
+  display: inline-block;
+}
+
+.uLine::after {
+  content: '';
+  width: 0px;
+  height: 2px;
+  display: block;
+  background: var(--textPrimary);
+  transition: 300ms;
+}
+
+.uLine:hover::after {
+  width: 100%;
+}

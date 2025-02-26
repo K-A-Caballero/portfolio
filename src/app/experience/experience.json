@@ -1,0 +1,38 @@
+{
+  "workHistory": {
+    "DataAnnotation" : {
+      "jobTitle": "LLM AI Trainer",
+      "timeFrame": "July 2023 - Present",
+      "expBullets": [
+        "Applied Reinforcement Learning from Human Feedback (RLHF) techniques to fine-tune various Large Language Models (LLMs) resulting in measurable improvements to accuracy, safety, and efficiency across various use cases.",
+        "Improved chatbot model performance in API call execution and data analysis via prompt curation, refining Python code output, increasing task success rates."
+      ]
+    },
+    "Rocket Referrals" : {
+      "jobTitle": "Software Engineer",
+      "timeFrame": "July 2022 - June 2023",
+      "expBullets": [
+        "Replaced over 80% of a Ruby on Rails app with a Typescript React frontend for high app functionality and smoother user interface, improving render times by up to 100% and overall user experience using Apollo GraphQL APIs.",
+        "Developed customizable theming framework, enabling clients to apply responsive design elements and color schemes that reduced engineer time spent on theming by 100% via CSS Sass/TypeScript/Ruby.",
+        "Built and maintained Storybook component library for UI components, facilitating agile development and testing of user interfaces across projects, resulting in increased development efficiency using JavaScript and TypeScript."
+      ]
+    },
+    "Fersher" : {
+      "jobTitle": "Software Consultant",
+      "timeFrame": "July 2021 - July 2022",
+      "expBullets": [
+        "Created responsive HTML templates that dynamically adjusted to different screen sizes and email clients, ensuring optimal rendering and user interaction across various devices and platforms. This approach significantly lowered open tickets for the email system from 13 to 1, with only one reported error among approximately 4000 clients, achieved through the use of HTML, CSS, and MSO conditional statements.",
+        "Designed and implemented unit tests to identify potential bottlenecks and optimize software quality, which led to significant decrease in bug detection time and boost in application performance using Cypress testing library."
+      ]
+    },
+    "Novetta" : {
+      "jobTitle": "Software Engineer",
+      "timeFrame": "November 2019 - Jun 2021",
+      "expBullets": [
+        "Developed 8 web applications from inception to deployment using React.js, Node.js, Express.js, and PostgreSQL, ensuring robust and scalable solutions tailored to meet client business needs.",
+        "Established and maintained PostgreSQL stored procedures to revamp data retrieval efficiency, resulting in a remarkable reduction in query execution times and increase in overall database performance.",
+        "Created comprehensive interactive application tours and tutorials for new users to navigate through intricate software features and functionalities, resulting in seamless application adoption by 80+ users using Shepherd.js library."
+      ]
+    }
+  }
+}
